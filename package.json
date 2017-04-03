@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config-ibmresearch",
+  "version": "0.0.0",
+  "description": "Stylelint shareable config for the IBM Research CSS style guide",
+  "author": "The IBM Research Emergent Solutions authors",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "license": "MIT",
+  "repository": "IBMResearch/stylelint-config-ibmresearch",
+  "main": "index.js",
+  "devDependencies": {
+    "stylelint": "^7.10.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.10.0",
+    "stylelint-processor-html": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=4.0"
+  }
+}
