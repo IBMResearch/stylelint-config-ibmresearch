@@ -129,6 +129,7 @@ module.exports = {
     'selector-combinator-space-before': 'always',
     'selector-descendant-combinator-no-non-space': true,
     'selector-id-pattern': null,
+    'selector-max-class': null,
     'selector-max-compound-selectors': null,
     'selector-max-specificity': null,
     'selector-nested-pattern': null,
@@ -149,7 +150,7 @@ module.exports = {
     'selector-pseudo-element-no-unknown': true,
     'selector-type-case': 'lower',
     'selector-type-no-unknown': [true, {
-      'ignoreTypes': ['/^[a-z][-.0-9_a-z]*-[-.0-9_a-z]*$/']
+      'ignore': ['custom-elements']
     }],
     'selector-max-empty-lines': 0,
 
