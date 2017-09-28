@@ -10,14 +10,17 @@
   "license": "MIT",
   "repository": "IBMResearch/stylelint-config-ibmresearch",
   "main": "index.js",
+  "dependencies": {
+    "stylelint-config-recommended": "^1.0.0"
+  },
   "devDependencies": {
-    "stylelint": "^7.13.0"
+    "stylelint": "^8.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.13.0",
+    "stylelint": "^8.1.0",
     "stylelint-processor-html": "^1.0.0"
   },
   "engines": {
-    "node": ">=4.0"
+    "node": ">=6.0"
   }
 }
