@@ -12,7 +12,7 @@ npm install --save-dev stylelint stylelint-config-ibmresearch
 
 Once the `stylelint-config-ibmresearch` package is installed, you can use it by
 specifying `stylelint-config-ibmresearch` in the [`extends`](https://stylelint.io/user-guide/configuration/#extends)
-section of your [ESLint configuration](https://stylelint.io/user-guide/configuration).
+section of your [Stylelint configuration](https://stylelint.io/user-guide/configuration).
 
 ```js
 {
