@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm install --save-dev stylelint stylelint-plugin-html stylelint-config-ibmresearch
+npm install --save-dev stylelint stylelint-config-ibmresearch
 ```
 
 ## Usage
