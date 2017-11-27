@@ -16,6 +16,7 @@ module.exports = {
      */
     'color-no-invalid-hex': true,
     'font-family-no-duplicate-names': true,
+    'font-family-no-missing-generic-family-keyword': true,
     'function-calc-no-unspaced-operator': true,
     'function-linear-gradient-no-nonstandard-direction': true,
     'string-no-newline': true,
@@ -26,7 +27,7 @@ module.exports = {
     'declaration-block-no-duplicate-properties': [true, {
       'ignore': ['consecutive-duplicates-with-different-values']
     }],
-    'declaration-block-no-redundant-longhand-properties': true,
+    'declaration-block-no-redundant-longhand-properties': false,
     'declaration-block-no-shorthand-property-overrides': true,
     'block-no-empty': true,
     'selector-pseudo-class-no-unknown': true,
@@ -39,6 +40,7 @@ module.exports = {
     'comment-no-empty': true,
     // 'max-nesting-depth': null,
     'no-descending-specificity': true,
+    'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
     'no-empty-source': true,
     'no-extra-semicolons': true,
