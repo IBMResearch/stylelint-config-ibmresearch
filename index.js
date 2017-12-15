@@ -27,7 +27,7 @@ module.exports = {
     'declaration-block-no-duplicate-properties': [true, {
       'ignore': ['consecutive-duplicates-with-different-values']
     }],
-    'declaration-block-no-redundant-longhand-properties': false,
+    'declaration-block-no-redundant-longhand-properties': null,
     'declaration-block-no-shorthand-property-overrides': true,
     'block-no-empty': true,
     'selector-pseudo-class-no-unknown': true,
