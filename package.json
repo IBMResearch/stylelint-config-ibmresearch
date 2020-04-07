@@ -2,24 +2,57 @@
   "name": "stylelint-config-ibmresearch",
   "version": "0.3.0",
   "description": "Stylelint shareable config for the IBM Research CSS style guide",
-  "author": "The IBM Research authors",
+  "license": "MIT",
+  "repository": "github:IBMResearch/stylelint-config-ibmresearch",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "format": "npm run format:prettier",
+    "format:prettier": "prettier --write \"**/*{js,json,md}\"",
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint \"**/*.js\""
+  },
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
-  "license": "MIT",
-  "repository": "IBMResearch/stylelint-config-ibmresearch",
-  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": "^13.3.0"
+  },
   "dependencies": {
-    "stylelint-config-recommended": "^2.0.0"
+    "stylelint-config-rational-order": "^0.1.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0"
   },
   "devDependencies": {
-    "stylelint": "^8.4.0"
+    "eslint": "^6.8.0",
+    "eslint-config-ibmresearch": "^0.10.0",
+    "husky": "^4.2.0",
+    "lint-staged": "^10.1.0",
+    "prettier": "2.0.4",
+    "prettier-plugin-package": "^1.0.0",
+    "stylelint": "^13.3.0"
   },
-  "peerDependencies": {
-    "stylelint": "^8.4.0"
+  "eslintConfig": {
+    "extends": "ibmresearch"
   },
-  "engines": {
-    "node": ">=6.0"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*{js,json,md}": [
+      "prettier --write"
+    ],
+    "**/*.js": [
+      "eslint --fix"
+    ]
+  },
+  "prettier": {
+    "quoteProps": "consistent",
+    "singleQuote": true
   }
 }
