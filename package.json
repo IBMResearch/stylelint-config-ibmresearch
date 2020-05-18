@@ -22,7 +22,7 @@
     "stylelint-config"
   ],
   "peerDependencies": {
-    "stylelint": "^13.3.0"
+    "stylelint": "^13.4.0"
   },
   "dependencies": {
     "stylelint-config-rational-order": "^0.1.0",
@@ -36,7 +36,7 @@
     "lint-staged": "^10.2.0",
     "prettier": "2.0.5",
     "prettier-plugin-package": "^1.0.0",
-    "stylelint": "^13.3.0"
+    "stylelint": "^13.4.0"
   },
   "eslintConfig": {
     "extends": "ibmresearch"
