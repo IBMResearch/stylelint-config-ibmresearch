@@ -30,8 +30,8 @@
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-ibmresearch": "^0.13.0",
+    "eslint": "^7.2.0",
+    "eslint-config-ibmresearch": "^0.14.0",
     "husky": "^4.2.0",
     "lint-staged": "^10.2.0",
     "prettier": "~2.0.0",
