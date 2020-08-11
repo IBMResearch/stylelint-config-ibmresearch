@@ -22,21 +22,21 @@
     "stylelint-config"
   ],
   "peerDependencies": {
-    "stylelint": "^13.6.0"
+    "stylelint": "^13.6.1"
   },
   "dependencies": {
-    "stylelint-config-rational-order": "^0.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-ibmresearch": "^0.14.0",
-    "husky": "^4.2.0",
-    "lint-staged": "^10.2.0",
-    "prettier": "~2.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "~2.0.5",
     "prettier-plugin-package": "^1.0.0",
-    "stylelint": "^13.6.0"
+    "stylelint": "^13.6.1"
   },
   "eslintConfig": {
     "extends": "ibmresearch"
