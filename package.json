@@ -18,7 +18,8 @@
     "prepare": "husky install"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lit.js"
   ],
   "keywords": [
     "stylelint",
