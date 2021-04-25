@@ -8,9 +8,9 @@
 'use strict';
 
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-rational-order'],
-  plugins: ['stylelint-order'],
+  extends: require.resolve('./index'),
   rules: {
-    'order/order': ['custom-properties', 'declarations'],
+    'no-eol-whitespace': null,
+    'no-missing-end-of-source-newline': null,
   },
 };
