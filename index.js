@@ -13,7 +13,6 @@ module.exports = {
   rules: {
     'no-eol-whitespace': null,
     'no-missing-end-of-source-newline': null,
-    'selector-type-no-unknown': [true, { ignore: ['custom-elements'] }],
     'order/order': ['custom-properties', 'declarations'],
   },
 };
