@@ -26,9 +26,11 @@
     "stylelint-config"
   ],
   "peerDependencies": {
+    "prettier": "^2.3",
     "stylelint": "^13.13"
   },
   "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0"
