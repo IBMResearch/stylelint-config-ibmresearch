@@ -8,7 +8,11 @@
 'use strict';
 
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-rational-order'],
+  extends: [
+    'stylelint-config-standard',
+    'stylelint-config-prettier',
+    'stylelint-config-rational-order',
+  ],
   plugins: ['stylelint-order'],
   rules: {
     'order/order': ['custom-properties', 'declarations'],
