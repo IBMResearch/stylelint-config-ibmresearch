@@ -24,8 +24,8 @@
     "stylelint-config"
   ],
   "peerDependencies": {
-    "prettier": "^2.4",
-    "stylelint": "^13.13"
+    "prettier": "2.x",
+    "stylelint": "13.x"
   },
   "dependencies": {
     "stylelint-config-prettier": "^9.0.2",
