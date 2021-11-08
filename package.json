@@ -28,13 +28,13 @@
     "stylelint": "13.x"
   },
   "dependencies": {
+    "stylelint-config-hudochenkov": "^5.0.0",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.1.0",
+    "eslint": "^8.2.0",
     "eslint-config-ibmresearch": "^0.24.0",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",

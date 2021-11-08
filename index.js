@@ -11,10 +11,6 @@ module.exports = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-prettier',
-    'stylelint-config-rational-order',
+    'stylelint-config-hudochenkov/order',
   ],
-  plugins: ['stylelint-order'],
-  rules: {
-    'order/order': ['custom-properties', 'declarations'],
-  },
 };
