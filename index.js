@@ -13,4 +13,7 @@ module.exports = {
     'stylelint-config-prettier',
     'stylelint-config-hudochenkov/order',
   ],
+  rules: {
+    'string-quotes': 'double',
+  },
 };
