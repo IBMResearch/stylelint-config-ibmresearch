@@ -51,14 +51,6 @@
     "**/*.js": "eslint --fix"
   },
   "prettier": {
-    "singleQuote": true,
-    "overrides": [
-      {
-        "files": "*.yml",
-        "options": {
-          "singleQuote": false
-        }
-      }
-    ]
+    "singleQuote": true
   }
 }
