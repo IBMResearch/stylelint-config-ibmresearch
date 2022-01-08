@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-ibmresearch",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Stylelint shareable config for the IBM Research CSS style guide",
   "license": "MIT",
   "repository": "github:IBMResearch/stylelint-config-ibmresearch",
