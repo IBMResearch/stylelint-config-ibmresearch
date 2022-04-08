@@ -31,7 +31,7 @@
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.12.0",
+    "eslint": "^8.13.0",
     "eslint-config-ibmresearch": "^0.25.1",
     "nano-staged": "~0.6.0",
     "npm-run-all": "^4.1.5",
